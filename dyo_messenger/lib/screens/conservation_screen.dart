@@ -147,6 +147,7 @@ class _ConservationScreenState extends State<ConservationScreen> {
             padding: EdgeInsets.all(16),
             child: TextFormField(
               decoration: InputDecoration(
+                //this line is new
                 contentPadding:
                     EdgeInsets.symmetric(vertical: 4, horizontal: 16),
                 suffixIcon: Padding(
